@@ -3,8 +3,9 @@
   <remote fetch="https://github.com/ARM-software" name="arm"/>
   <remote fetch="git://busybox.net" name="busybox"/>
   <remote fetch="https://github.com/linaro-swg" name="linaro-swg"/>
-  <remote fetch="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds" name="linux"/>
+  <remote fetch="https://github.com/zaidan" name="linux"/>
   <remote fetch="https://github.com/OP-TEE" name="optee"/>
+  <remote fetch="https://github.com/zaidan" name="qemu-zaidan"/>
   <remote fetch="https://github.com/qemu" name="qemu"/>
   <remote fetch="http://git.code.sf.net/p/strace" name="sfnet"/>
   <remote fetch="https://github.com/tianocore" name="tianocore"/>
@@ -25,6 +26,6 @@
   <project name="optee_examples.git" path="optee_examples" remote="linaro-swg" revision="refs/tags/2.6.0"/>
   <project name="optee_os.git" path="optee_os" revision="refs/tags/2.6.0"/>
   <project name="optee_test.git" path="optee_test" revision="refs/tags/2.6.0"/>
-  <project name="qemu.git" path="qemu" remote="qemu" revision="199e19ee538eb61fd08b1c1ee5aa838ebdcc968e"/>
+  <project name="qemu.git" path="qemu" remote="qemu-zaidan" revision="optee"/>
   <project name="soc_term.git" path="soc_term" remote="linaro-swg" revision="5493a6e7c264536f5ca63fe7511e5eed991e4f20"/>
 </manifest>

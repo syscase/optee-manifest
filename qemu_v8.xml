@@ -6,7 +6,7 @@
 	<remote name="linux" fetch="https://github.com/zaidan" />
 	<remote name="optee" fetch="https://github.com/OP-TEE" />
         <remote name="tianocore" fetch="https://github.com/tianocore" />
-	<remote name="qemu-zaidan" fetch="https://github.com/zaidan" />
+	<remote name="zaidan" fetch="https://github.com/zaidan" />
 	<remote name="qemu" fetch="https://github.com/qemu" />
 	<remote name="sfnet" fetch="http://git.code.sf.net/p/strace" />
 
@@ -21,7 +21,8 @@
 	<project remote="busybox" path="busybox" name="busybox.git" revision="dbf5a6da6a4295ce26edd1ce34fde567d19afa02" />
 
 	<!-- Sample applications -->
-	<project remote="linaro-swg" path="optee_examples" name="optee_examples.git" />
+	<project remote="zaidan" path="optee_examples" name="optee_examples.git" revision="feature/auto-detect-example-list" />
+  <project remote="zaidan" path="optee_examples/agent" name="optee_agent.git" />
 
 	<!-- Linux kernel -->
 	<project remote="linaro-swg" path="linux" name="linux.git" revision="optee"/>
@@ -34,7 +35,7 @@
 	<project remote="linaro-swg" path="optee_benchmark" name="optee_benchmark.git"/>
 
 	<!-- QEMU -->
-	<project remote="qemu-zaidan" path="qemu" name="qemu.git" revision="optee-TriforceAFL" />
+	<project remote="zaidan" path="qemu" name="qemu.git" revision="optee-TriforceAFL" />
 	<project remote="qemu" path="qemu/dtc" name="dtc.git" />
 
 	<project remote="arm" path="arm-trusted-firmware" name="arm-trusted-firmware.git" />

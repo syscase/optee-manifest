@@ -35,7 +35,7 @@
 	<project remote="linaro-swg" path="optee_benchmark" name="optee_benchmark.git"/>
 
 	<!-- QEMU -->
-	<project remote="zaidan" path="qemu" name="qemu.git" revision="optee-TriforceAFL" />
+	<project remote="zaidan" path="qemu" name="qemu.git" revision="optee-syscase" />
 	<project remote="qemu" path="qemu/dtc" name="dtc.git" />
 
 	<project remote="arm" path="arm-trusted-firmware" name="arm-trusted-firmware.git" />
